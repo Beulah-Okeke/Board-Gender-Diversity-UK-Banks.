@@ -60,6 +60,12 @@ ROA variation across banks
 **second screenshot**
 ![my second screenshot](images/Firm_Size_LLOYDS.png)
 
+**third screenshot**
+![my third screenshot](images/Firm_Size_NATWEST.png)
+
+**fourth screenshot**
+![my third screenshot](images/Firm_Size_HSBC.png)
+
 🚀 How to Reproduce
 Clone the repo:
 git clone https://github.com/yourusername/Board-Gender-Diversity-UK-Banks.git
