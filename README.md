@@ -55,10 +55,10 @@ Bank leverage patterns over time
 ROA variation across banks
  
 **first screenshot**
-![my first screenshot](images/Firm_Size_BARCLAYS.png))
+![my first screenshot](images/Firm_Size_BARCLAYS.png)
 
 **second screenshot**
-![my second screenshot](images/Firm_Size_LLOYDS.png.png)
+![my second screenshot](images/Firm_Size_LLOYDS.png)
 
 🚀 How to Reproduce
 Clone the repo:
