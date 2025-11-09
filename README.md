@@ -1,78 +1,71 @@
-# Board-Gender-Diversity-UK-Banks.
-An econometric study on board gender diversity and financial performance in UK commercial banks using panel data (2010 - 2023).
+# 🌟 Project Title: Board Gender Diversity and Corporate Financial Performance in UK Commercial Banks (FTSE 100)
 
-Board Gender Diversity and Financial Performance of UK Banks (2010–2023)
+## 👩‍💼 Summary
 
-📊 Econometric Analysis using Panel Data in R
+This dissertation project presents a quantitative panel data analysis of four leading UK commercial banks (Barclays, HSBC, Lloyds, and NatWest) from 2010 to 2023. The study investigates the relationship between corporate governance variables and financial performance (Return on Assets, ROA), applying advanced econometric techniques to address key questions in modern corporate governance.
 
-Author: Chukwudumebi Beulah Okeke
-BSc Economics Dissertation, University of Essex (2025)
+## 🎯 Key Findings & Policy Implications
 
-📌 Project Overview
-This project investigates the relationship between board gender diversity and the financial performance of UK commercial banks listed under the FTSE 100 (Lloyds, HSBC, NatWest, Barclays) between 2010 and 2023.
-The study applies panel data econometric techniques in R to examine how board composition affects profitability, measured by Return on Assets (ROA).
+The Random Effects Model results yielded clear, policy-relevant findings:
 
-🎯 Research Objectives
-Analyse the impact of board gender diversity on financial performance.
-Evaluate how firm-level variables (board size, leverage, independence, firm size) influence ROA.
-Test whether increasing female board representation improves profitability in the UK banking sector.
+* [cite_start]**Gender Diversity Matters:** Board Gender Diversity demonstrated a statistically **significant positive impact** on Return on Assets (ROA)[cite: 299]. [cite_start]An increase in the board's gender diversity by 1% is associated with a 2.05% improvement in financial performance, holding other factors constant [cite: 299] [cite_start](Random Effects Regression Coefficient: **0.0205**, $p < 0.05$ [cite: 296]). [cite_start]This supports the idea that diverse boards enhance decision-making [cite: 313] [cite_start]and is in line with the UK's corporate governance reforms[cite: 278].
+* [cite_start]**Leverage Risk:** The control variable, Leverage (Total Liabilities/Total Assets), showed a strong and statistically **significant negative relationship** with ROA (Coefficient: **-0.0011**, $p < 0.01$ [cite: 296, 303]). [cite_start]This highlights that higher reliance on debt financing is linked to lower profitability, aligning with the concept that higher financial risk negatively impacts performance[cite: 319, 320].
+* [cite_start]**Non-Significant Factors:** The study found **no statistically significant impact** of Board Size or Board Independence on financial performance (ROA)[cite: 304, 321].
 
-📂 Data
-Source: Hampton-Alexander Review (2016–2021), FTSE Women Leaders Review (2022–2023), and banks’ annual reports.
-Sample: 4 banks × 14 years = 56 panel observations.
-Variables:
-Board Diversity (gender ratio)
-Board Size
-Independent/Non-Executive Directors
-Firm Size (total assets)
-Leverage (liabilities/assets)
-Return on Assets (ROA)
+## 🛠️ Methodology
 
-⚙️ Methodology
-Econometric Techniques:
-Pooled OLS, Fixed Effects (FE), Random Effects (RE) models.
-Hausman Test to select between FE and RE.
-Correlation analysis.
-Tools:
-RStudio
-Packages: plm, ggplot2, stargazer
-Regression Model:
-ROA_it = β0 + β1(GenderDiversity_it) + β2(FirmSize_it) 
-       + β3(BoardSize_it) + β4(Leverage_it) 
-       + β5(BoardIndependence_it) + ε_t
+[cite_start]The analysis was conducted using a **Balanced Panel Data** approach, covering **56 observations** across the four banks from 2010 to 2023[cite: 119].
 
-📊 Key Findings
-Positive Impact: A 1% increase in gender diversity on boards is associated with a 2.05% increase in ROA.
-Firm Size: Slight positive but weak effect on ROA.
-Leverage: Higher leverage negatively impacts profitability.
-Board Size & Independence: No statistically significant effect.
-R² = 42.8% → model explains ~43% of variation in ROA.
-Conclusion: Increasing female board representation can enhance financial performance in UK banks, aligning with global corporate governance reforms.
+| Aspect | Detail |
+| :--- | :--- |
+| **Model** | [cite_start]**Random Effects Model (REM)** [cite: 294][cite_start], validated by a **Hausman Test** (p-value = 0.8671)[cite: 291]. |
+| **Variables** | [cite_start]**Dependent:** Return on Assets (ROA)[cite: 156]. [cite_start]**Independent (Core):** Gender Diversity, Board Size, Board Independence[cite: 160]. [cite_start]**Control:** Firm Size (Total Assets), Leverage[cite: 160]. |
+| **Software** | [cite_start]**RStudio** for data manipulation, panel data estimation (`plm`), and visualization (`ggplot2`)[cite: 150, 151]. |
 
-📈 Visualisations (examples you can add as .png or generate in R)
-Trend of gender diversity (2010–2023)
-Bank leverage patterns over time
-ROA variation across banks
- 
-**first screenshot**
-![my first screenshot](images/Firm_Size_BARCLAYS.png)
+## 📊 Analysis and Visual Results
 
-**second screenshot**
-![my second screenshot](images/Firm_Size_LLOYDS.png)
+The project is driven by visual analysis of trends and robust econometric results.
 
-**third screenshot**
-![my third screenshot](images/Firm_Size_NATWEST.png)
+### Descriptive Statistics & Correlation
 
-**fourth screenshot**
-![my third screenshot](images/Firm_Size_HSBC.png)
+| Table/Chart | Insight |
+| :--- | :--- |
+| **** | [cite_start]Shows the high average level of Board Independence (74%) and the progression of Gender Diversity (average 29.8%)[cite: 223, 227]. |
+| **** | [cite_start]Confirmed a moderately positive correlation between Gender Diversity and ROA (0.3192), and a significant negative correlation for Leverage and ROA (-0.5561)[cite: 283, 284]. |
 
-🚀 How to Reproduce
-Clone the repo:
-git clone https://github.com/yourusername/Board-Gender-Diversity-UK-Banks.git
-Open the R scripts in RStudio.
-Install required packages:
-install.packages(c("plm", "ggplot2", "stargazer"))
-Run the analysis scripts to replicate regression results and graphs.
+### Key Variable Trends (2010–2023)
 
-📜 Citation
-Okeke, C.B. (2025). Board Gender Diversity and Financial Performance of UK Banks Quoted in FTSE 100. BSc Dissertation, University of Essex.
+| Governance/Performance Variable | Bank Example | Key Trend |
+| :--- | :--- | :--- |
+| **Gender Diversity** |  | [cite_start]Shows a consistent and strong upward trend, nearing the 40% mark, reflecting adherence to corporate governance initiatives[cite: 277, 278]. |
+| **ROA** |  | [cite_start]Illustrates significant profitability enhancement, moving from negative to consistent positive values post-2015[cite: 266]. |
+| **Board Independence** |  | [cite_start]Shows a generally high level of independence, albeit with some volatility, underscoring the role of non-executive directors[cite: 243, 59]. |
+| **Board Size** |  | [cite_start]Demonstrates efforts to maintain a consistent board size, which is noted to be less volatile than some peers[cite: 234]. |
+
+### Control Variable Trends
+
+| Control Variable | Bank Example | Key Trend |
+| :--- | :--- | :--- |
+| **Firm Size** |  | [cite_start]Illustrates the asset movement of a large, volatile bank, reflecting diverse asset management and operational approaches[cite: 251, 252]. |
+| **Leverage** |  | [cite_start]Shows a general decline until the mid-2010s, followed by an increase, reflecting post-crisis deleveraging and later expansion strategies[cite: 258, 260]. |
+
+### Final Econometric Results
+
+| Test/Model | Result/Significance |
+| :--- | :--- |
+| **Hausman Test** | [cite_start] (P-value: 0.8671) – **Fail to Reject Null** (Random Effects suitable)[cite: 291, 293]. |
+| **Random Effects Model** | [cite_start] (Gender Diversity $p < 0.05$, Leverage $p < 0.01$) – The model is statistically significant with an F-statistic of **37.37*** ($p < 0.01$)[cite: 296, 306]. |
+
+---
+
+## 🔗 Repository Structure
+
+* `/data/`: Raw data collected from annual reports (not included).
+* `/analysis/`: **Contains the full set of visualizations and econometric outputs.**
+    * `Board_Size_*.png`
+    * `Board_Independence_*.png`
+    * `ROA_*.png`
+    * `Gender_Diversity_*.png`
+    * ... (and other result files)
+* `OKEKE CHUKWUDUMEBI BEULAH - BSc Dissertation pdf.pdf`: Full dissertation document.
+* `README.md`: This file.
