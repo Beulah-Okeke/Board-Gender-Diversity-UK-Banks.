@@ -58,7 +58,7 @@ ROA variation across banks
 ![my first screenshot](images/Firm_Size_BARCLAYS.png))
 
 **beulah's screenshot**
-!(images/Firm_Size_BARCLAYS.png)
+![my first screenshot](images/Firm_Size_BARCLAYS.png)
 
 🚀 How to Reproduce
 Clone the repo:
