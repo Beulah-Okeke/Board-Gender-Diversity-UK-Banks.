@@ -64,5 +64,6 @@ Open the R scripts in RStudio.
 Install required packages:
 install.packages(c("plm", "ggplot2", "stargazer"))
 Run the analysis scripts to replicate regression results and graphs.
+
 📜 Citation
 Okeke, C.B. (2025). Board Gender Diversity and Financial Performance of UK Banks Quoted in FTSE 100. BSc Dissertation, University of Essex.
