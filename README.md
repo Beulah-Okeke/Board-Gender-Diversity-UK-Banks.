@@ -3,6 +3,7 @@ An econometric study on board gender diversity and financial performance in UK c
 
 Board Gender Diversity and Financial Performance of UK Banks (2010–2023)
 📊 Econometric Analysis using Panel Data in R
+
 Author: Chukwudumebi Beulah Okeke
 BSc Economics Dissertation, University of Essex (2025)
 
