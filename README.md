@@ -45,6 +45,12 @@ Conclusion: Increasing female board representation can enhance financial perform
 Trend of gender diversity (2010–2023)
 Bank leverage patterns over time
 ROA variation across banks
+
+
+Screenshot
+
+Image 1 [images/Firm_Size_BARCLAYS.png]
+
 🚀 How to Reproduce
 Clone the repo:
 git clone https://github.com/yourusername/Board-Gender-Diversity-UK-Banks.git
