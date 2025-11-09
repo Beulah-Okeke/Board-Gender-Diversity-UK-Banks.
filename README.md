@@ -62,7 +62,7 @@ The project is driven by visual analysis of trends and robust econometric result
 
 * `/data/`: Raw data collected from annual reports (not included).
 * `/analysis/`: **Contains the full set of visualizations and econometric outputs.**
-    * `Board_Independence_*.png`
+    * `Board_Independence_*`
       **BARCLAYS Visualization**
       ![my first screenshot](images/Board_Independence_BARCLAYS.png)
       **HSBC Visualization**
@@ -72,7 +72,7 @@ The project is driven by visual analysis of trends and robust econometric result
       **NATWEST Visualization**
        ![my first screenshot](images/Board_Independence_NATWEST.png)
 
-    * `Board_Size_*.png`
+    * `Board_Size_*`
       **BARCLAYS Visualization**
       ![my first screenshot](images/Board_Size_BARCLAYS.png)
       **HSBC Visualization**
@@ -81,7 +81,7 @@ The project is driven by visual analysis of trends and robust econometric result
        ![my first screenshot](images/Board_Size_LLOYDS.png)
       **NATWEST Visualization**
        ![my first screenshot](images/Board_Size_NATWEST.png)
-    * `ROA_*.png`
+    * `ROA_*`
       **BARCLAYS Visualization**
       ![my first screenshot](images/ROA_BARCLAYS.png)
       **HSBC Visualization**
@@ -92,6 +92,15 @@ The project is driven by visual analysis of trends and robust econometric result
        ![my first screenshot](images/ROA_NATWEST.png)
       
     * `Gender_Diversity_*.png`
+      **BARCLAYS Visualization**
+      ![my first screenshot](images/Gender_Diversity_BARCLAYS.png)
+      **HSBC Visualization**
+       ![my first screenshot](images/Gender_Diversity_HSBC.png)
+      **LLOYDS Visualization**
+       ![my first screenshot](images/Gender_Diversity_LLOYDS.png)
+      **NATWEST Visualization**
+       ![my first screenshot](images/Gender_Diversity_NATWEST.png)
+    * 
     * ... (and other result files)
 * `OKEKE CHUKWUDUMEBI BEULAH - BSc Dissertation pdf.pdf`: Full dissertation document.
 * `README.md`: This file.
