@@ -57,6 +57,9 @@ ROA variation across banks
 **first screenshot**
 ![my first screenshot](images/Firm_Size_BARCLAYS.png))
 
+**beulah's screenshot**
+!(images/Firm_Size_BARCLAYS.png)
+
 🚀 How to Reproduce
 Clone the repo:
 git clone https://github.com/yourusername/Board-Gender-Diversity-UK-Banks.git
