@@ -30,14 +30,14 @@ The project is driven by visual analysis of trends and robust econometric result
 
 | Table/Chart | Insight |
 | :--- | :--- |
-| **** | Shows the high average level of Board Independence (74%) and the progression of Gender Diversity (average 29.8%). |
-| **** | Confirmed a moderately positive correlation between Gender Diversity and ROA (0.3192), and a significant negative correlation for Leverage and ROA (-0.5561). |
+| [As shown below in the visualization] | Shows the high average level of Board Independence (74%) and the progression of Gender Diversity (average 29.8%). |
+| [As shown below in the visualization] | Confirmed a moderately positive correlation between Gender Diversity and ROA (0.3192), and a significant negative correlation for Leverage and ROA (-0.5561). |
 
 ### Key Variable Trends (2010–2023)
 
 | Governance/Performance Variable | Bank Example | Key Trend |
 | :--- | :--- | :--- |
-| **Gender Diversity** |  | [As shown below in the visualization] Shows a consistent and strong upward trend, nearing the 40% mark, reflecting adherence to corporate governance initiatives[cite: 277, 278]. |
+| **Gender Diversity** |  | [As shown below in the visualization] Shows a consistent and strong upward trend, nearing the 40% mark, reflecting adherence to corporate governance initiatives. |
 | **ROA** |  | [As shown below in the visualization] Illustrates significant profitability enhancement, moving from negative to consistent positive values post-2015. |
 | **Board Independence** |  | [As shown below in the visualization] Shows a generally high level of independence, albeit with some volatility, underscoring the role of non-executive directors. |
 | **Board Size** |  | [As shown below in the visualization] Demonstrates efforts to maintain a consistent board size, which is noted to be less volatile than some peers. |
